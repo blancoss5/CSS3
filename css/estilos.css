@@ -1,0 +1,67 @@
+
+#listas{
+    color: blue; 
+}
+
+.Listas{
+    color: black;
+}
+
+.Listas .Lista{
+   /*por ser especifico gana*/
+color: purple;
+font-weight: bold;
+}
+
+a{
+    font-size: 15px;
+}
+
+.Enlace .Span{
+    color: red;
+    font-size: 30px;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color:red;
+    font-size: 30px;
+}
+
+a{
+    color: inherit;
+    font-size: inherit;
+}
+
+
+ul{
+    color: green;
+}
+
+li{
+    color:initial;
+}
+
+.ultimo{
+    color: inherit;
+}
+
+a{
+    color: red;
+    font-size: 30px;
+}
+
+[href^="https://www"]{
+    /* ^ es un comodin que dice... comenzara con... */
+    color: yellow;
+    font-size: 55px;
+}
+
+[type="text"]{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
